@@ -18,4 +18,6 @@ async def on_ready():
 async def ping(interaction: discord.Interaction):
     await interaction.response.send_message("🏓 Pong!")
 
+
+# Inicializa o bot. Use o seu token
 bot.run("TOKEN")
